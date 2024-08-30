@@ -1,0 +1,39 @@
+body {
+    font-family: 'Dancing Script', cursive; /* Fonte romântica para o título */
+    background-color: #f8f9fa; /* Cor de fundo clara */
+    color: #333; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px; /* Largura máxima da área de conteúdo */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 20px; /* Espaço interno */
+}
+
+h1 {
+    font-size: 2.5em; /* Tamanho maior para o título */
+    color: #e34a7f; /* Cor do título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+.special-image {
+    max-width: 100%; /* Limita a largura da imagem ao tamanho do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 20px 0; /* Espaço acima e abaixo da imagem */
+    border-radius: 8px; /* Cantos arredondados da imagem */
+}
+
+h2 {
+    font-size: 2em; /* Tamanho do subtítulo */
+    color: #e34a7f; /* Cor dos subtítulos */
+    margin-top: 40px; /* Espaço acima do subtítulo */
+}
+
+p {
+    font-size: 1.2em; /* Tamanho do texto do parágrafo */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    margin: 20px 0; /* Espaço acima e abaixo do parágrafo */
+}

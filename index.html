@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para o meu amor, Duda</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap">
+    <style>
+        /* Estilos internos para o exemplo */
+        .container {
+            font-family: 'Dancing Script', cursive;
+            text-align: center;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+        .special-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .button-container, .next-button-container, .next-section {
+            margin: 20px 0;
+        }
+        .button-container button, .next-button-container button, .next-section button {
+            font-family: 'Dancing Script', cursive;
+            font-size: 18px;
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .button-container button:hover, .next-button-container button:hover, .next-section button:hover {
+            background-color: #ff1493;
+        }
+        .hidden {
+            display: none;
+        }
+        .result-text {
+            margin-top: 20px;
+            font-size: 16px;
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .gallery-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .gallery-item {
+            margin: 10px;
+            text-align: center;
+        }
+        .gallery-item img {
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Para o meu amor, Duda</h1>
+        <img src="IMG-20230730-WA0028.jpg" alt="Imagem especial para Duda" class="special-image">
+        <p>Amor da minha vida, este site tem como objetivo mostrar o que passei com você, minhas experiências, expectativas e conclusões do tempo que passamos juntos. Como você é curiosa, já aviso que foi além das minhas expectativas!!! 💖😍</p>
+
+        <h2>Da tela para a realidade ❤️📱❤️</h2>
+        <p>É amor, aqui você vai passar por um resumo reflexivo do que vivemos. Isso é muito importante para termos noção do quanto evoluímos e do quão importantes somos um para a vida do outro. Éramos duas pessoas sem expectativas, rsrs; o amor não era nosso foco, mas eu não pude me conter ao te ver, seja pelo casamento do Nael, onde você me chamou a atenção (mesmo a 2 metros de distância, kk), e principalmente no Facebook, onde tive a sorte de encontrá-la e que Deus me deu esperança para arriscar um novo palpite do que viria a ser, no mínimo, uma amizade... Mas Deus abençoou nós dois, e algo tão complexo para mim e relativamente novo acabou se tornando tão fácil, pois nos adaptamos muito bem. Era muito cedo para dizer que estava apaixonado naquela época, mas a minha reação naquele ponto de ônibus é uma prova de que eu realmente estava; as lágrimas não mentem, hahaa. O importante é que o amor não tem tempo, planejamento e nem lugar para acontecer; simplesmente vem e, com Deus aprovando, a relação só tende a aumentar e se fortalecer ainda mais. E posso dizer tranquilamente que sinto isso mais forte do que nunca!!!</p>
+
+        <h2>Irmã, amiga e amor da minha vida ❤️❤️❤️</h2>
+        <p>É difícil definir o que você é para mim; simplesmente dizer que é o amor da minha vida parece simplista demais para o que você demonstrou nesta jornada comigo. A complexidade que vivenciamos juntos é algo muito íntimo e questionável. Por que passamos por tudo isso? Por que não tivemos uma jornada simples? A resposta está além de nós, amor, pois, mesmo com sofrimentos, tristezas e abalos, tivemos um forte amadurecimento. Sua clareza sobre mim e aceitação demonstra um forte senso de irmandade entre nós, como se você fosse da família da mesma mãe, sabe? São tantas coincidências e adaptações a cada vivência nossa que posso dizer que é como uma irmã para mim; também uma amiga, pois esteve ao meu lado nos momentos mais difíceis, mostrando que, mesmo quando o amor fraqueja, seja pela situação ou por uma queda na relação, você teve uma compreensão além do amor e cuidou de mim. Não apenas chorou, mas me levantou e me apoiou a reverter a situação. Isso se encaixa como amor, mas coloquei na parte de amizade pela cautela e apoio que me deu, que era o que eu estava precisando, não só carinho, mas um rumo para me livrar da queda. E, por último e mais importante, você é para mim o amor da minha vida, pois sempre esteve comigo, me dando carinho e amor, cuidando de mim e sempre pensando em mim. Diria que sair de casa sabendo que tem alguém apaixonado por você e contando os minutos para te ver e estar com você é uma motivação enorme que conforta muito. Você é excelente nisso, meu amor, e me sinto amado todos os dias por isso. Muito obrigado por ser essa mulher maravilhosa e por ter me escolhido!!! ❤️❤️❤️❤️❤️</p>
+
+        <div class="button-container">
+            <button id="btn1">Quando vi que está além de uma relação de adolescentes</button>
+            <button id="btn2">O dia que percebi que é o amor da minha vida</button>
+        </div>
+
+        <div id="result1" class="result-text hidden">
+            Quando sofri o golpe, o apoio que me deu e como agiu é algo que nunca me esquecerei. Você me confortou mais do que meus próprios pais diante daquela situação. Foi aí que percebi que é uma mulher que está "jogando sério", que quer ser minha parceira e que posso contar com você e confiar sem pestanejar.
+        </div>
+
+        <div id="result2" class="result-text hidden">
+            Esse dia foi no momento em que esteve gerindo nossas ações (lugar que íamos sair, desejos, futuro). Isso me marcou muito, pois você demonstrou interesse e fé tão grande quanto eu, além do propósito que ao fazer comigo, fiquei extremamente contente em saber que ainda existe alguém fiel às coisas de Deus.
+        </div>
+
+        <div id="next-button" class="next-button-container hidden">
+            <button id="nextBtn">Próximo</button>
+        </div>
+
+        <div id="next-section" class="next-section hidden">
+            <h2>Mais Curiosidades ❤️❤️</h2>
+            <div class="button-container">
+                <button id="btn3">Parte do corpo que mais gosto 😏</button>
+                <button id="btn4">Habilidade que eu mais admiro</button>
+            </div>
+
+            <div id="result3" class="result-text hidden">
+                A parte do seu corpo que mais admiro é, sem sombra de dúvidas, os peitos. Não tem como não desver, são grandes, bonitos e fofos. Ficaria deitado neles sendo acariciado por você sem parar.
+            </div>
+
+            <div id="result4" class="result-text hidden">
+                Olha, essa foi difícil, hein? Fiquei entre culinária e oratória, mas fico com a oratória. Você é perfeita em dialogar, seja por texto ou verbalmente. Eu particularmente prefiro verbalmente, e mesmo com as gírias "MEUUU", sua voz é bem suave e eu amo ouvi-la. E isso também se enquadra em você cantando.
+            </div>
+        </div>
+
+        <h2>Momentos marcantes</h2>
+        <h3>Não somos muito fotogênicos, é uma marca registrada nossa kkkk, mas tive a autonomia de registrar três momentos para relembrarmos ❤️😍😊</h3>
+        
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="foto1.jpg" alt="Foto 1">
+                <p>Um dia extremamente especial, quando completamos 1 ano de namoro, algo completamente desejado por nós e que passou tão rápido, né? Quando vejo essa foto, lembro de cada momento de evolução que tivemos, principalmente na intimidade. Seu esforço e meu para aceitar que éramos um casal foi algo único e engraçado também. Lembra de quando não nos beijávamos muito? Tinha que ser paciente e entender seu momento. São esses pequenos detalhes que mais gosto de recordar, amor. Obrigado por passar isso comigo ❤️</p>
+            </div>
+            <div class="gallery-item">
+                <img src="foto2.jpg" alt="Foto 2">
+                <p>Dia maravilhoso, onde pude me aproximar mais da sua família e ver vc bem alegre por realizar um sonho que tanto queria, apesar de seu lado torcedora me assustar no começo kkkk foi algo que acabei me acostumando, foi uma otima experiência ❤️</p>
+            </div>
+            <div class="gallery-item">
+                <img src="foto3.jpg" alt="Foto 3">
+                <p>Aqui foi o início de nosso relacionamento, algo cravado e regido por Deus, o momento que passamos a ser namorados, em que o mundo soube de que estamos unidos  pelo amor e que somos um casal perfeito, temos que fazer um quadro disso, pois foi profetico hein kk ❤️❤️❤️❤️❤️❤️</p>
+            </div>
+        </div>
+    </div>
+
+    <h2>Sim ou Não? 🤔💕</h2>
+
+    <p>Estive pensando muito em como e quando tocar nesse assunto, amor. Cheguei a uma conclusão filosófica: se nos conhecemos virtualmente e colocamos em prática presencialmente, por que não iniciarmos uma nova etapa da mesma maneira?</p>
+
+    <p>Dito isso, Eduarda Viana Paixão Oliveira, quer ser minha noiva virtualmente e oficializar na igreja com a entrega das alianças?</p>
+
+    <p>Sei que você merece muito mais que isso, amor, mas Deus tem o melhor para nós. Isso que fiz é para demonstrar minha decisão e preparação para estar com você, unidos em um só corpo. Tive muitas ações indecisas a respeito do casamento, como você sabe... Mas esse site e tudo que está nele é a prova de que estou pronto, amor. Estou com você, ao seu lado, pronto para te amar até o fim, te proteger e dar o melhor que você merece para uma vida de princesa! 🐎💖💖💖</p>
+
+    <img src="dry.gif" alt="Gif de Noivado">
+
+    <script>
+        // Gerenciar visibilidade dos botões e resultados da primeira seção
+        document.getElementById('btn1').addEventListener('click', function() {
+            document.getElementById('btn2').style.display = 'none';
+            document.getElementById('result1').classList.remove('hidden');
+            document.getElementById('next-button').classList.remove('hidden');
+        });
+
+        document.getElementById('btn2').addEventListener('click', function() {
+            document.getElementById('btn1').style.display = 'none';
+            document.getElementById('result2').classList.remove('hidden');
+            document.getElementById('next-button').classList.remove('hidden');
+        });
+
+        // Gerenciar visibilidade dos botões e resultados da segunda seção
+        document.getElementById('nextBtn').addEventListener('click', function() {
+            document.getElementById('next-section').classList.remove('hidden');
+            document.getElementById('next-button').style.display = 'none';
+        });
+
+        document.getElementById('btn3').addEventListener('click', function() {
+            document.getElementById('btn4').style.display = 'none';
+            document.getElementById('result3').classList.remove('hidden');
+        });
+
+        document.getElementById('btn4').addEventListener('click', function() {
+            document.getElementById('btn3').style.display = 'none';
+            document.getElementById('result4').classList.remove('hidden');
+        });
+    </script>
+</body>
+</html>
